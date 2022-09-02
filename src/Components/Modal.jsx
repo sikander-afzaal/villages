@@ -6,6 +6,12 @@ function Modal({ images, setHeader }) {
     <>
       <div className="overlay" onClick={() => setHeader(false)}></div>
       <div className="modal">
+        <img
+          src="./Assets/close.png"
+          onClick={() => setHeader(false)}
+          className="close"
+          alt=""
+        />
         <Splide
           options={{
             width: "100%",
@@ -13,6 +19,7 @@ function Modal({ images, setHeader }) {
             perMove: 1,
             height: "100%",
             drag: true,
+            autoplay: false,
             type: "loop",
           }}
           aria-label="My Favorite Images"
