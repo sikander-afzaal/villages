@@ -8,8 +8,6 @@ function Card({ name, pdf, images, setGallery, setImages }) {
         <h2>
           <span>Village</span> . {name}
         </h2>
-        <h3>Sponsor</h3>
-        <p>Lorem ipsum dolor sit.</p>
         <div className="card-btn">
           <a href={pdf} download className="download">
             Download Report

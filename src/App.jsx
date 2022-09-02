@@ -27,7 +27,7 @@ function App() {
       <div className="top">
         <div className="img">
           <img src="./Assets/logo1.png" alt="" />
-          <img src="./Assets/logo1.png" alt="" />
+          <img src="./Assets/logo2.png" alt="" />
         </div>
         <div className="btn-div">
           <button
