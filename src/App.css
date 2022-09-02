@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  padding-bottom: 40px;
 }
 header {
   width: 100%;
@@ -129,7 +130,7 @@ header {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   background-color: #f8f9f9;
   width: 300px;
-  height: 445px;
+  height: 500px;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -152,7 +153,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 5px;
   margin-top: 10px;
   width: 100%;
   padding-inline: 20px;
@@ -173,12 +174,14 @@ header {
   margin-right: 5px;
 }
 .text-card h3 {
-  font-size: 18px;
+  font-size: 16px;
   color: #aec9c9;
   font-weight: normal;
+  margin-top: 10px;
 }
 .text-card p {
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 18px;
   color: black;
 }
 .card-btn {
@@ -188,6 +191,7 @@ header {
   width: 100%;
   gap: 10px;
   flex-direction: column;
+  margin-top: 10px;
 }
 .card-btn button,
 .card-btn a {
@@ -204,19 +208,25 @@ header {
   cursor: pointer;
   font-weight: 500;
   transition: all 0.5s ease;
+  border: 2px solid transparent;
 }
-.card-btn a:hover,
+.card-btn a:hover {
+  background-color: transparent;
+  border-color: #347a9a;
+  color: black;
+}
 .card-btn button:hover {
-  transform: scale(0.95);
-  opacity: 0.7;
+  color: white;
+  background-color: #347a9a;
 }
 .card-btn a {
-  background-color: #0d6efd;
+  background-color: #347a9a;
   color: white;
 }
 .card-btn button {
-  background-color: #ffc107;
+  background-color: transparent;
   color: black;
+  border-color: #347a9a;
 }
 .overlay {
   position: fixed;
