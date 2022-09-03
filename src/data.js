@@ -4,7 +4,7 @@ export const data = {
     {
       name: "Parlapally",
       pdf: "/Assets/parlapally/pdf.pdf",
-      profileImg: "./Assets/parlapally/profile.jpg",
+      profileImg: "/Assets/parlapally/profile.jpg",
       profileName: "Dr.Anupama",
       images: [
         "./Assets/parlapally/img (1).jpg",
@@ -34,7 +34,7 @@ export const data = {
     {
       name: "Buddaram",
       pdf: "/Assets/buddaram/pdf.pdf",
-      profileImg: "./Assets/buddaram/profile.jpg",
+      profileImg: "/Assets/buddaram/profile.jpg",
       profileName: "Dr.Ambatpalli Sarojini Rao",
       images: [
         "./Assets/buddaram/img (1).jpg",
