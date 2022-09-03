@@ -1,3 +1,4 @@
+import budProfile from "./profile.jpg";
 export const data = {
   // test
   telangana: [
@@ -34,7 +35,7 @@ export const data = {
     {
       name: "Buddaram",
       pdf: "/Assets/buddaram/pdf.pdf",
-      profileImg: "/Assets/buddaram/profile.jpg",
+      profileImg: budProfile,
       profileName: "Dr.Ambatpalli Sarojini Rao",
       images: [
         "./Assets/buddaram/img (1).jpg",
