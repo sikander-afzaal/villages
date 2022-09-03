@@ -44,7 +44,7 @@ function App() {
             }}
             className="dark-blue"
           >
-            Gujrat
+            Gujarat
           </button>
           <button
             onClick={() => {
